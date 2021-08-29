@@ -24,6 +24,7 @@
             text-align: center;
             line-height: 20px;
             -webkit-text-stroke-color: black;
+            letter-spacing: 1px;
             @include media(">=phone", "<lgphone") {
                 font-size: 1.5rem;
                 line-height: 10px;
