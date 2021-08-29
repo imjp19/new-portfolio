@@ -21,6 +21,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-horizontal-page-progress": "0.0.6",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
     "react-typography": "^0.16.20",

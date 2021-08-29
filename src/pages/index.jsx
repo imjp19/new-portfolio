@@ -1,5 +1,5 @@
 import React from "react"
-
+import HorizontalPageProgress from "react-horizontal-page-progress";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // Components
@@ -11,7 +11,8 @@ import Promotion from "../components/Promotion"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
-  <Layout className="layout">
+  <Layout>
+    <HorizontalPageProgress height="3px" backgroundColor="#111" />
     <SEO title="Portfolio Template" />
     <Header></Header>
     <About></About>

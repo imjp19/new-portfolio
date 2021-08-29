@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <div className="section">
       <div className="container">
+
         <div className="navbar-wrapper">
           <div
             role="button"
@@ -11,7 +12,7 @@ const Navbar = () => {
             className="name"
             tabIndex={0}
           >
-            imjp.dev
+            jaypatel.
           </div>
           <div className="links-wrapper">
             <button onClick={() => scrollTo("#work")}>Work</button>
@@ -20,6 +21,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
     </div>
   )
 }

@@ -7,6 +7,15 @@
     align-items: center;
     justify-content: space-between;
     background: white;
+    @include media(">=phone", "<lgphone") {
+        padding-top: 4rem;
+    }
+    @include media(">=lgphone", "<tablet") {
+        padding-top: 4rem;
+    }
+    @include media(">=tablet", "<desktop") {
+        padding-top: 4rem;
+    }
     .name {
         font-weight: 600;
     }
