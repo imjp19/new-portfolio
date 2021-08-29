@@ -4,11 +4,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include media(">=phone", "<lgphone") {
+        height: 100%;
+        margin-top: 30vh;
+        margin-bottom: 20vh
+    }
+    @include media(">=lgphone", "<tablet") {}
+    @include media(">=tablet", "<desktop") {}
+    @include media(">=desktop") {}
     h2 {
         font-size: 1rem;
         text-align: center;
         @include media(">=phone", "<lgphone") {
-            font-size: 14px;
+            font-size: 1rem;
         }
         @include media(">=lgphone", "<tablet") {
             font-size: 16px;
