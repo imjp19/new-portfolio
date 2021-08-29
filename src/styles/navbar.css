@@ -1,0 +1,42 @@
+.navbar-wrapper {
+    width: 80vw;
+    margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar-wrapper .name {
+    font-weight: 600;
+}
+
+.navbar-wrapper .links-wrapper button {
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Open Sans";
+    opacity: 0.6;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.navbar-wrapper .links-wrapper button:hover {
+    opacity: 1;
+}
+
+.navbar-wrapper .links-wrapper .active {
+    color: black;
+}
+
+
+/*# sourceMappingURL=navbar.css.map */

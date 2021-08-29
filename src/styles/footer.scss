@@ -1,42 +1,51 @@
 .footer-container {
-  width: 80vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  h1 {
-    font-size: 3rem;
-    line-height: 20px;
-  }
-  h2 {
-    font-size: 1.5rem;
-    overflow: hidden;
-    @include media(">=phone", "<lgphone") {
-      display: none;
+    width: 80vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-size: 3rem;
+        line-height: 20px;
     }
-    @include media(">=lgphone", "<tablet") {
-      font-size: 14px;
+    h2 {
+        font-size: 1.5rem;
+        overflow: hidden;
+        @include media(">=phone", "<lgphone") {
+            display: none;
+        }
+        @include media(">=lgphone", "<tablet") {
+            font-size: 14px;
+        }
+        @include media(">=tablet", "<desktop") {
+            font-size: 1.2rem;
+        }
     }
-    @include media(">=tablet", "<desktop") {
-      font-size: 1.2rem;
+    .email-link {
+        font-size: 1.5rem;
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+        -webkit-text-stroke-width: 1px;
+        letter-spacing: 1px
     }
-  }
-  .email-link {
-    font-size: 1.5rem;
-    color: black;
-  }
-  .social-icons {
-    margin-top: 20px;
-    img {
-      height: 2rem;
-      margin: 10px;
+    .email-link:hover {
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
     }
-  }
-  span {
-    margin-top: 10px;
-  }
-  icon {
-    color: red;
-  }
+    .social-icons {
+        margin-top: 20px;
+        img {
+            height: 2rem;
+            margin: 10px;
+        }
+    }
+    span {
+        margin-top: 10px;
+    }
+    icon {
+        color: red;
+    }
 }
