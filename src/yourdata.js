@@ -39,8 +39,9 @@ export default {
             title: "Project One", //Project Title - Add Your Project Title Here
             para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/prakarsh.jpg?token=AOL57XC3ANHHAO567GTKHMTBGUIU6",
             //Project URL - Add Your Project Url Here
+            githubUrl: "http://chetanverma.com/",
             url: "http://chetanverma.com/",
         },
         {

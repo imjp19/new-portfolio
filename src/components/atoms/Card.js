@@ -1,6 +1,8 @@
 import React from "react"
+import { DiGithubBadge } from "react-icons/di";
+import { BiLink } from "react-icons/bi"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, githubUrl }) => {
   return (
     <div
       className="card"
@@ -15,13 +17,24 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
         <a
+          href={githubUrl ? githubUrl : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn"
+        >
+          <DiGithubBadge className="icon" />
+
+        </a>
+        <a
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
         >
-          Explore
+
+          <BiLink className="icon-arrow" />
         </a>
+
       </div>
     </div>
   )

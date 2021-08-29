@@ -27,10 +27,19 @@
             margin-bottom: 20px;
         }
         .btn {
-            background-color: black;
+            // background-color: black;
             color: white;
-            padding: 10px;
+            // padding: 10px;
             text-decoration: none;
+            .icon {
+                width: 2rem;
+                height: auto;
+            }
+            .icon-arrow {
+                width: auto;
+                height: 2rem;
+                justify-content: center
+            }
         }
         &:hover {
             opacity: 1;

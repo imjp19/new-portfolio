@@ -3,17 +3,6 @@
     margin-top: 10vh;
     display: flex;
     justify-content: space-between;
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Old versions of Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
     @include media(">=phone", "<lgphone") {
         flex-direction: column-reverse;
     }
@@ -39,6 +28,12 @@
             font-size: 3rem;
             line-height: 20px;
             @include media(">=tablet", "<desktop") {
+                text-align: center;
+            }
+            @include media(">=phone", "<lgphone") {
+                text-align: center;
+            }
+            @include media(">=lgphone", "<tablet") {
                 text-align: center;
             }
         }
