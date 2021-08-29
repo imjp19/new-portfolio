@@ -1,6 +1,5 @@
 import React from "react"
-import { DiGithubBadge } from "react-icons/di"
-import { BsBoxArrowUpRight } from "react-icons/bs";
+
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
     <div
@@ -21,15 +20,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           rel="noopener noreferrer"
           className="btn"
         >
-          <DiGithubBadge className="icon" />
-        </a>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          <BsBoxArrowUpRight className="icon-open" />
+          Explore
         </a>
       </div>
     </div>
