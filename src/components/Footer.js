@@ -8,12 +8,15 @@ const Footer = () => {
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
+
             <h2>{data.contactSubHeading}</h2>
           </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
-            {data.contactEmail}
-          </a>
+          <Fade top cascade>
+
+            <a className="email-link" href={`mailto:${data.contactEmail}`}>
+              {data.contactEmail}
+            </a>
+          </Fade>
           <div className="social-icons">
             {data.social.map((socialLink, index) => (
               <a
@@ -30,9 +33,10 @@ const Footer = () => {
             Made With <icon>❤</icon> by{" "}
             <a href="https://www.chetanverma.com/">Jay Patel</a>
           </span>
+          <div className="copyright">&copy; 2021 <strong>Jay Patel</strong></div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

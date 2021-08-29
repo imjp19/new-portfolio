@@ -1,26 +1,19 @@
 .navbar-wrapper {
-    width: 80vw;
+    width: 100%;
     margin-top: 0vh;
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
-    position: fixed;
+    // position: fixed;
     align-items: center;
     justify-content: space-between;
     background: white;
-    @include media(">=phone", "<lgphone") {
-        padding-top: 4rem;
-    }
-    @include media(">=lgphone", "<tablet") {
-        padding-top: 4rem;
-    }
-    @include media(">=tablet", "<desktop") {
-        padding-top: 4rem;
-    }
     .name {
+        margin-left: 3rem;
         font-weight: 600;
         cursor: pointer;
     }
     .links-wrapper {
+        margin-right: 3rem;
         button {
             text-decoration: none;
             padding: 10px;
