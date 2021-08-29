@@ -8,17 +8,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Old versions of Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
     user-select: none;
+    border-radius: 5px;
     .content {
         font-family: "Open Sans";
         text-align: center;
@@ -34,13 +25,18 @@
         p {
             font-size: 10px;
             color: white;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
         }
         .btn {
-            background-color: black;
-            color: white;
-            padding: 10px;
             text-decoration: none;
+            .icon {
+                color: black;
+                font-size: 30px
+            }
+            .icon-open {
+                color: black;
+                font-size: 25px;
+            }
         }
         &:hover {
             opacity: 1;
