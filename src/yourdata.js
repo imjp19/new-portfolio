@@ -24,7 +24,7 @@ export default {
         //Line 1 For Header
         "Web Developer",
         //Line 2 For Header
-        "products, brands,",
+        "DS/ML/AI Enthusiast",
         //Line 3 For Header
         "and experience",
     ],
@@ -101,11 +101,10 @@ export default {
     // End Work Section -----------------------
 
     // About Secton --------------
-    aboutParaOne: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    aboutParaTwo: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    aboutParaThree: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    aboutImage: "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-
+    aboutParaOne: "Hello there👋, I am Jay Patel a pre - final year undergrad student at Sardar Vallabhbhai Patel Institute of Technology.I am a full - stack web developer.I am exploring various technologies in Web Development.And learning new technologies on a required basis.I have a simple motto.Pick a project definition and then explore the definition.After exploring decide which technologies will be used to make the way of user experience smooth.If I know the technology which will be used in developing.Else I learn required technologies and implement them directly on the project.And at the end of the completing project, I had lots of new skills / concepts which I never used or never had.Currently I am working as a Web Developer at my own projects and sometimes on freelance projects just for exploring and learning new things about client requirements.Also, I am Data Science, Machine Learning, Artificial Intelligence enthusiast.",
+    aboutParaTwo: "",
+    aboutParaThree: "",
+    aboutImage: "https://raw.githubusercontent.com/imjp19/images/main/JAY-CIRCLE.png?token=AOL57XDELE5OZYKE6VQTLQLBGX2N6",
     //   End About Section ---------------------
 
     // Skills Section ---------------
