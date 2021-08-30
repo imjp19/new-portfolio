@@ -3,6 +3,9 @@ import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import download from "../images/download.svg"
 const About = () => {
+  const downloadFile = () => {
+    window.location.href = "./https://github.com/imjp19/images/raw/main/JayPatelResume.pdf"
+  }
   return (
     <div className="secion" id="about">
       <div className="container">
@@ -21,7 +24,7 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
-            <a className="primary-btn" href='/https://github.com/imjp19/images/blob/main/JayPatelResume.pdf' download> Resume &nbsp; <img src={download} /> </a>
+            <button onClick={downloadFile} className="primary-btn"> Resume &nbsp; <img src={download} /> </button>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

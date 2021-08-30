@@ -8,8 +8,8 @@
     align-items: center;
     @include media(">=phone", "<lgphone") {
         height: 100%;
-        margin-top: 20vh;
-        margin-bottom: 20vh
+        margin-top: 25vh;
+        margin-bottom: 25vh
     }
     @include media(">=lgphone", "<tablet") {}
     @include media(">=tablet", "<desktop") {}
