@@ -2,11 +2,12 @@
     background-color: black;
     color: white;
     .footer-container {
-        width: 100vw;
+        width: 80vw;
         height: 100vh;
-        padding-left: 15rem;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5rem;
         justify-content: center;
         @include media(">=phone", "<lgphone") {
             padding-left: 2rem;
@@ -24,8 +25,9 @@
             font-size: 1.5rem;
             overflow: hidden;
             align-items: left;
+            font-weight: 300;
             @include media(">=phone", "<lgphone") {
-                font-size: 1rem;
+                display: none;
             }
             @include media(">=lgphone", "<tablet") {
                 font-size: 1rem;
@@ -35,40 +37,63 @@
             }
         }
         .email-link {
-            font-size: 1.5rem;
             color: white;
             text-decoration: none;
-            font-weight: 900;
             -webkit-text-stroke-width: 1px;
-            letter-spacing: 2px;
             font-size: 5rem;
+            transition: all .2s ease-in-out;
             @include media(">=phone", "<lgphone") {
-                text-align: left;
-                font-size: 2rem;
+                font-size: 1.2rem;
+                letter-spacing: 1.5rem;
+                font-weight: 300;
             }
             @include media(">=lgphone", "<tablet") {
-                font-size: 2rem;
+                font-size: 1.7rem;
+                letter-spacing: 2px;
+                font-weight: 900;
             }
             @include media(">=tablet", "<desktop") {
                 font-size: 5rem;
+                letter-spacing: 2px;
+                font-weight: 900;
             }
-        }
-        .email-link:hover {
-            color: black;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
+            &:hover {
+                color: black;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+            }
         }
         .social-icons {
             // color: white;
-            margin-top: 20px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
             img {
                 height: 2rem;
-                margin: 10px;
-                // background-color: white;
+                width: auto;
+                margin-right: 1rem;
+                opacity: 0.6;
+                &:hover {
+                    opacity: 1
+                }
+                @include media(">=phone", "<lgphone") {
+                    height: 1.2rem;
+                }
+                @include media(">=lgphone", "<tablet") {
+                    height: 1.5rem;
+                }
+                @include media(">=tablet", "<desktop") {
+                    font-size: 2rem;
+                }
             }
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
         }
         span {
             margin-top: 10px;
+            letter-spacing: 1px;
         }
         icon {
             color: red;
@@ -76,6 +101,15 @@
         .copyright {
             margin-top: 8rem;
             font-size: 1.2rem
+        }
+        @include media(">=phone", "<lgphone") {
+            font-size: 1.2rem;
+        }
+        @include media(">=lgphone", "<tablet") {
+            font-size: 1.5rem;
+        }
+        @include media(">=tablet", "<desktop") {
+            font-size: 2rem;
         }
     }
 }

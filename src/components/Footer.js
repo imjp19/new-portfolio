@@ -6,36 +6,40 @@ const Footer = () => {
   return (
     <div className="section" id="contact">
       <div className="container">
-        <div className="footer-container">
-          <Fade bottom cascade>
+        <div className="wrapper">
+          <div className="footer-container">
 
-            <h2>{data.contactSubHeading}</h2>
-          </Fade>
-          <Fade top cascade>
+            <Fade bottom cascade>
 
-            <a className="email-link" href={`mailto:${data.contactEmail}`}>
-              {data.contactEmail}
-            </a>
-          </Fade>
-          <div className="social-icons">
-            {data.social.map((socialLink, index) => (
-              <a
-                key={index}
-                href={socialLink.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={socialLink.img} alt="icons"></img>
+              <h2>{data.contactSubHeading}</h2>
+            </Fade>
+            <Fade top cascade>
+
+              <a className="email-link" href={`mailto:${data.contactEmail}`}>
+                {data.contactEmail}
               </a>
-            ))}
+            </Fade>
+            <div className="social-icons">
+              {data.social.map((socialLink, index) => (
+                <a
+                  key={index}
+                  href={socialLink.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={socialLink.img} alt="icons"></img>
+                </a>
+              ))}
+            </div>
+            <span>
+              Made With <icon>❤</icon> by{" "}
+              <a href="https://www.chetanverma.com/">Jay Patel</a>
+            </span>
+            <div className="copyright">&copy; 2021 <strong>Jay Patel</strong></div>
           </div>
-          <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Jay Patel</a>
-          </span>
-          <div className="copyright">&copy; 2021 <strong>Jay Patel</strong></div>
         </div>
       </div>
+
     </div >
   )
 }

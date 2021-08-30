@@ -11,6 +11,8 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import twitterIcon from "./images/twitter.svg"
+import linkedinIcon from "./images/linkedin.svg"
 
 export default {
     //(Please Do Not Remove The comma(,) after every variable)
@@ -149,19 +151,24 @@ export default {
     contactSubHeading: "Let's create your next experience together",
     social: [
         // Add Or Remove The Link Accordingly
-        { img: githubIcon, url: "https://github.com/chetanverma16" },
         {
-            img: codepenIcon,
-            url: "https://www.codepen.com/",
+            img: githubIcon,
+            url: "https://github.com/chetanverma16"
         },
         {
-            img: dribbbleIcon,
-            url: "https://dribbble.com/chetanverma",
+            img: linkedinIcon,
+            url: "https://www.linkedin.com/in/imjp19/",
         },
+        {
+            img: twitterIcon,
+            url: "https://twitter.com/imjp19_",
+        },
+
         {
             img: instagramIcon,
-            url: "https://www.instagram.com/",
+            url: "https://www.instagram.com/imjp.dev",
         },
+
     ],
 
     // End Contact Section ---------------
