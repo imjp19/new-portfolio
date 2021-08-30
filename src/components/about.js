@@ -4,7 +4,7 @@ import data from "../yourdata"
 import download from "../images/download.svg"
 const About = () => {
   const downloadFile = () => {
-    window.location.href = "./https://github.com/imjp19/images/raw/main/JayPatelResume.pdf"
+    window.location.href = "https://github.com/imjp19/images/raw/main/JayPatelResume.pdf"
   }
   return (
     <div className="secion" id="about">
