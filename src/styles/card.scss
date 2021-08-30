@@ -43,7 +43,9 @@
         }
         &:hover {
             opacity: 1;
-            transform: translate(0, 0px);
+            transform: translate(0, 00px);
+            background: rgba(0, 0, 0, 0.3);
+            // height: 100%
         }
     }
 }

@@ -16,7 +16,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, githubUrl }) => {
       <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        <a
+        {/* <a
           href={githubUrl ? githubUrl : "#"}
           target="_blank"
           rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, githubUrl }) => {
         >
           <DiGithubBadge className="icon" />
 
-        </a>
+        </a> */}
         <a
           href={projectLink ? projectLink : "#"}
           target="_blank"

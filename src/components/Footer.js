@@ -15,7 +15,7 @@ const Footer = () => {
             </Fade>
             <Fade top cascade>
 
-              <a className="email-link" href={`mailto:${data.contactEmail}`}>
+              <a className="email-link" href={`mailto:hello@imjp.dev`} target="_blank" >
                 {data.contactEmail}
               </a>
             </Fade>

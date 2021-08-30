@@ -58,5 +58,16 @@
         @include media(">=tablet", "<desktop") {
             width: 100%;
         }
+        img {
+            @include media(">=phone", "<lgphone") {
+                width: 70%;
+            }
+            @include media(">=lgphone", "<tablet") {
+                width: 100%;
+            }
+            @include media(">=tablet", "<desktop") {
+                width: 100%;
+            }
+        }
     }
 }

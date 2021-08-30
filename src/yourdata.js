@@ -5,6 +5,14 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
+import javaIcon from "./images/java.svg"
+import pythonIcon from "./images/python.svg"
+import expressIcon from "./images/express.svg"
+import mongodbIcon from "./images/mongodb.svg"
+import nodeIcon from "./images/node.svg"
+import gitIcon from "./images/git.svg"
+import githubBlackIcon from "./images/github-black.svg"
+import sqliteIcon from "./images/sql.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -21,15 +29,16 @@ export default {
     //   Header Details ---------------------
     name: "jay",
     headerTagline: [
+        "pre-final year student",
         //Line 1 For Header
         "Web Developer",
         //Line 2 For Header
         "DS/ML/AI Enthusiast",
         //Line 3 For Header
-        "and experience",
+
     ],
     //   Header Paragraph
-    headerParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    //headerParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
     //Contact Email
     contactEmail: "hello@imjp.dev",
@@ -38,64 +47,48 @@ export default {
 
     // Work Section ------------------------
     projects: [{
-            title: "Project One", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/prakarsh.jpg?token=AOL57XC3ANHHAO567GTKHMTBGUIU6",
-            //Project URL - Add Your Project Url Here
-            githubUrl: "http://chetanverma.com/",
-            url: "http://chetanverma.com/",
+            title: "odeo.in",
+            para: "The Ultimate Platform For All Local Artist We are team of talanted artist making your event memorable.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/odeo.jpg?token=AOL57XF6JVXFSMHUFY5ZEGDBGZKAM",
+            url: "https://odeo.in/",
         },
         {
-            title: "Project Two", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-            //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            title: "Prakarsh XVI",
+            para: "PRAKARSH XVI is national level technical symposium at SVIT. In 2021 our college organized PRAKARSH XVI virtual because of the COVID-19. I contributed as a volunteer in the PRAKARSH XVI. I worked on reciept generator and sender with the use of nodemailer and pdfmaker packages.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/prakarsh.jpg?token=AOL57XBOCF54OSV54HN6IITBGZK5Q",
+            url: "https://prakarsh.org/",
         },
         {
-            title: "Project Three", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            title: "CE Vision X",
+            para: "VISION is inter - department at SVIT.In 2020 our Computer department organized VISION X virtual because of the COVID - 19. I contributed as a volunteer in the VISION X.I worked on registration process mainly.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/vision.jpg?token=AOL57XDHCGMVCDLIYTQJX73BGZMAY",
+            url: "https://cevision.tech/",
         },
         {
-            title: "Project Four", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            title: "ShelterHero",
+            para: "A web-app that lets you to report the homeless.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/shelterhero.jpg?token=AOL57XHV37GBEWJXEZNJ7ELBGZMUY",
+            url: "https://github.com/imjp19/ShelterHero",
         },
         {
-            title: "Project Five", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-            //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            title: "SneakyLeaks.js",
+            para: "Live Streaming is one of the wonders 2020 will be remembered for. I can count how many times I've heard the phrase Live Streaming is the Next Thing in the past few months. Moreover, everyday we're seeing people from every background join the streaming community. Be it well to do people like comedians, sports personalites, magicians, life coaches, gurus & also developers or ordinary people looking for a career, everyone is booming with the help of live streaming.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/sneakyleaks.jpg?token=AOL57XD5Y6ELQKUXSAKAZE3BGZMUC",
+            url: "https://github.com/imjp19/SneakyLeaks.js",
         },
         {
-            title: "Project Six", //Project Title - Add Your Project Title Here
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-            //Project Image - Add Your Project Image Here
-            imageSrc: "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-            //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            title: "AntiBroke-Engine",
+            para: "This App can prevents you from being broke by keeping track of your income & expenses.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/antibroke.jpg?token=AOL57XGEVOT55UG4RJHSU2TBGZMVI",
+            url: "https://github.com/imjp19/AntiBroke-Engine",
         },
-
-        /*
-        If You Want To Add More Project just Copy and Paste This At The End
-        ,{
-            title: 'Project Five',
-            para: 'Something Amazing',
-            imageSrc: "",
-            url: ''
+        {
+            title: "You//'ll Regret Searching Recipes Online",
+            para: "Anyone can search for recipes on google, but what if you’re short of ingredient’s? This app helps you search recipes by ingredients along with keeping track of calorie intake.",
+            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/youwill.png?token=AOL57XB4WLLUSTJ2VGHALC3BGZMTI",
+            url: 'https://github.com/imjp19/You-llRegretSearchingRecipes'
         }
-        */
+
     ],
 
     // End Work Section -----------------------
@@ -113,27 +106,39 @@ export default {
 
     skills: [{
             img: htmlIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         },
         {
             img: cssIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         },
         {
             img: jsIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        },
+        {
+            img: sqliteIcon,
+        },
+        {
+            img: javaIcon,
+        },
+        {
+            img: pythonIcon,
+        },
+        {
+            img: mongodbIcon,
         },
         {
             img: reactIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
         },
         {
-            img: designIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            img: expressIcon,
         },
         {
-            img: codeIcon,
-            para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+            img: nodeIcon,
+        },
+        {
+            img: gitIcon,
+        },
+        {
+            img: githubBlackIcon
         },
     ],
 

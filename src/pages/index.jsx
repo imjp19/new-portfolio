@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Work></Work>
 
     <Skills></Skills>
-    <Promotion></Promotion>
+    {/* <Promotion></Promotion> */}
     <Footer></Footer>
   </Layout>
 )
