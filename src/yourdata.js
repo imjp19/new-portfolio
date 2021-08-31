@@ -29,11 +29,11 @@ export default {
     //   Header Details ---------------------
     name: "jay",
     headerTagline: [
-        "pre-final year student",
+        "Developer,",
         //Line 1 For Header
-        "Web Developer",
+        "Student,",
         //Line 2 For Header
-        "DS/ML/AI Enthusiast",
+        "and Community",
         //Line 3 For Header
 
     ],

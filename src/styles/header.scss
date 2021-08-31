@@ -1,11 +1,12 @@
 .header-wrapper {
     width: 100vw;
-    height: 100%;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    height: 100vh;
+    // margin-top: 15vh;
+    // margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     @include media(">=phone", "<lgphone") {
         height: 100%;
         margin-top: 25vh;

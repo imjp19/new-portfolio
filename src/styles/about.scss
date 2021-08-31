@@ -58,6 +58,9 @@
         @include media(">=tablet", "<desktop") {
             width: 100%;
         }
+        .primary-btn {
+            align-items: center;
+        }
         img {
             @include media(">=phone", "<lgphone") {
                 width: 70%;

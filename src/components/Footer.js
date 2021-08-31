@@ -33,9 +33,9 @@ const Footer = () => {
             </div>
             <span>
               Made With <icon>❤</icon> by{" "}
-              <a href="https://www.chetanverma.com/">Jay Patel</a>
+              <a href="https://imjp.dev/">Jay Patel</a>
             </span>
-            <div className="copyright">&copy; 2021 <strong>Jay Patel</strong></div>
+            <div className="copyright">&copy; 2021 <strong>jaypatel.</strong></div>
           </div>
         </div>
       </div>

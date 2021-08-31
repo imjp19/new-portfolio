@@ -24,7 +24,10 @@ const About = () => {
               <br></br>
               {data.aboutParaThree}
             </p>
-            <button onClick={downloadFile} className="primary-btn"> Resume &nbsp; <img src={download} /> </button>
+            <Fade bottom>
+              <button onClick={downloadFile} className="primary-btn"> Resume &nbsp; <img src={download} /> </button>
+            </Fade>
+
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>
