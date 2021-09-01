@@ -1,5 +1,5 @@
 import React from "react"
-import ReactGA from 'react-ga';
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -27,8 +27,5 @@ const IndexPage = () => (
   </Layout>
 )
 
-function initializeReactGA() {
-  ReactGA.initialize('G-NYSN69436V');
-  ReactGA.pageview('/homepage');
-}
+
 export default IndexPage
