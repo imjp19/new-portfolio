@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "author": "Chetan Verma <hello@chetanverma.com>",
     "dependencies": {
+        "axios": "^0.21.1",
         "gatsby": "^2.32.13",
         "gatsby-image": "^2.5.0",
         "gatsby-plugin-google-analytics": "^3.13.0",
@@ -27,6 +28,7 @@
         "react-horizontal-page-progress": "0.0.6",
         "react-icons": "^4.2.0",
         "react-reveal": "^1.2.2",
+        "react-router-dom": "^5.2.1",
         "react-scroll": "^1.8.1",
         "react-typography": "^0.16.20",
         "typography": "^0.16.21",

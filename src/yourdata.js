@@ -49,43 +49,43 @@ export default {
     projects: [{
             title: "odeo.in",
             para: "The Ultimate Platform For All Local Artist We are team of talanted artist making your event memorable.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/odeo.jpg?token=AOL57XF6JVXFSMHUFY5ZEGDBGZKAM",
+            imageSrc: "https://imjp19.github.io/images/odeo.jpg",
             url: "https://odeo.in/",
         },
         {
             title: "Prakarsh XVI",
             para: "PRAKARSH XVI is national level technical symposium at SVIT. In 2021 our college organized PRAKARSH XVI virtual because of the COVID-19. I contributed as a volunteer in the PRAKARSH XVI. I worked on reciept generator and sender with the use of nodemailer and pdfmaker packages.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/prakarsh.jpg?token=AOL57XBOCF54OSV54HN6IITBGZK5Q",
+            imageSrc: "https://imjp19.github.io/images/prakarsh.jpg",
             url: "https://prakarsh.org/",
         },
         {
             title: "CE Vision X",
             para: "VISION is inter - department at SVIT.In 2020 our Computer department organized VISION X virtual because of the COVID - 19. I contributed as a volunteer in the VISION X.I worked on registration process mainly.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/vision.jpg?token=AOL57XDHCGMVCDLIYTQJX73BGZMAY",
+            imageSrc: "https://imjp19.github.io/images/vision.jpg",
             url: "https://cevision.tech/",
         },
         {
             title: "ShelterHero",
             para: "A web-app that lets you to report the homeless.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/shelterhero.jpg?token=AOL57XHV37GBEWJXEZNJ7ELBGZMUY",
+            imageSrc: "https://imjp19.github.io/images/shelterhero.jpg",
             url: "https://github.com/imjp19/ShelterHero",
         },
         {
             title: "SneakyLeaks.js",
             para: "Live Streaming is one of the wonders 2020 will be remembered for. I can count how many times I've heard the phrase Live Streaming is the Next Thing in the past few months. Moreover, everyday we're seeing people from every background join the streaming community. Be it well to do people like comedians, sports personalites, magicians, life coaches, gurus & also developers or ordinary people looking for a career, everyone is booming with the help of live streaming.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/sneakyleaks.jpg?token=AOL57XD5Y6ELQKUXSAKAZE3BGZMUC",
+            imageSrc: "https://imjp19.github.io/images/sneakyleaks.jpg",
             url: "https://github.com/imjp19/SneakyLeaks.js",
         },
         {
             title: "AntiBroke-Engine",
             para: "This App can prevents you from being broke by keeping track of your income & expenses.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/antibroke.jpg?token=AOL57XGEVOT55UG4RJHSU2TBGZMVI",
+            imageSrc: "https://imjp19.github.io/images/antibroke.jpg",
             url: "https://github.com/imjp19/AntiBroke-Engine",
         },
         {
             title: "You//'ll Regret Searching Recipes Online",
             para: "Anyone can search for recipes on google, but what if you’re short of ingredient’s? This app helps you search recipes by ingredients along with keeping track of calorie intake.",
-            imageSrc: "https://raw.githubusercontent.com/imjp19/images/main/youwill.png?token=AOL57XB4WLLUSTJ2VGHALC3BGZMTI",
+            imageSrc: "https://imjp19.github.io/images/youwill.png",
             url: 'https://github.com/imjp19/You-llRegretSearchingRecipes'
         }
 
@@ -97,7 +97,7 @@ export default {
     aboutParaOne: "Hello there👋, I am Jay Patel a pre - final year undergrad student at Sardar Vallabhbhai Patel Institute of Technology.I am a full - stack web developer.I am exploring various technologies in Web Development.And learning new technologies on a required basis.I have a simple motto.Pick a project definition and then explore the definition.After exploring decide which technologies will be used to make the way of user experience smooth.If I know the technology which will be used in developing.Else I learn required technologies and implement them directly on the project.And at the end of the completing project, I had lots of new skills / concepts which I never used or never had.Currently I am working as a Web Developer at my own projects and sometimes on freelance projects just for exploring and learning new things about client requirements.Also, I am Data Science, Machine Learning, Artificial Intelligence enthusiast.",
     aboutParaTwo: "",
     aboutParaThree: "",
-    aboutImage: "https://raw.githubusercontent.com/imjp19/images/main/JAY-CIRCLE.png?token=AOL57XDELE5OZYKE6VQTLQLBGX2N6",
+    aboutImage: "https://imjp19.github.io/images/JAY-CIRCLE.png",
     //   End About Section ---------------------
 
     // Skills Section ---------------
@@ -157,7 +157,7 @@ export default {
         // Add Or Remove The Link Accordingly
         {
             img: githubIcon,
-            url: "https://github.com/chetanverma16"
+            url: "https://github.com/imjp19"
         },
         {
             img: linkedinIcon,
