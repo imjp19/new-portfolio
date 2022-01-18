@@ -35,7 +35,7 @@ const Footer = () => {
               Made With <icon>❤</icon> by{" "}
               <a href="https://imjp.dev/">Jay Patel</a>
             </span>
-            <div className="copyright">&copy; 2021 <strong>jaypatel.</strong></div>
+            <div className="copyright">&copy; 2022 <strong>jaypatel.</strong></div>
           </div>
         </div>
       </div>
