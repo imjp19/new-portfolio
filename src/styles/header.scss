@@ -1,22 +1,22 @@
 .header-wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     // margin-top: 15vh;
-    // margin-bottom: 15vh;
+    margin-bottom: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     @include media(">=phone", "<lgphone") {
-        height: 100%;
-        margin-top: 25vh;
-        margin-bottom: 25vh
+        height: 100vw;
+        margin-top: 20vh;
+        // margin-bottom: 25vh
     }
     @include media(">=lgphone", "<tablet") {}
     @include media(">=tablet", "<desktop") {}
     @include media(">=desktop") {}
     h2 {
-        font-size: 1rem;
+        font-size: 2rem;
         text-align: center;
         @include media(">=phone", "<lgphone") {
             font-size: 1rem;
@@ -30,12 +30,12 @@
     }
     .heading-wrapper {
         h1 {
-            color: white;
+            color: black;
             font-size: 4rem;
             text-align: center;
             line-height: 20px;
-            -webkit-text-stroke-color: black;
             letter-spacing: 1px;
+            -webkit-text-stroke-color: black;
             @include media(">=phone", "<lgphone") {
                 font-size: 2rem;
                 line-height: 10px;
@@ -56,6 +56,7 @@
         }
         h1:hover {
             color: black;
+            -webkit-text-stroke-color: black;
             @include media(">=phone", "<lgphone") {
                 -webkit-text-stroke-width: 1px;
             }

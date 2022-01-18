@@ -9,7 +9,10 @@
         line-height: 20px;
     }
     .skills-grid {
-        display: grid;
+        overflow: auto;
+        white-space: nowrap;
+        flex-direction: row;
+        display: flex;
         grid-template-columns: repeat(12, 1fr);
         margin-top: 50px;
         grid-gap: 20px;

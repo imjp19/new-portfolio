@@ -111,5 +111,12 @@
         @include media(">=tablet", "<desktop") {
             font-size: 2rem;
         }
+        .name {
+            a {
+                &:hover {
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
     }
 }

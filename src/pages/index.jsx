@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+// import { Sling as Hamburger } from "hamburger-react"
 // Components
 import Header from "../components/Header"
 import Work from "../components/Work"
@@ -17,6 +17,7 @@ const IndexPage = () => (
   <Layout>
 
     <SEO title="Home" />
+
     <Header></Header>
     <About></About>
     <Work></Work>

@@ -21,31 +21,24 @@ import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 import twitterIcon from "./images/twitter.svg"
 import linkedinIcon from "./images/linkedin.svg"
+import youtubeIcon from "./images/youtube.svg"
+import discordIcon from "./images/discord.svg"
 
 export default {
-    //(Please Do Not Remove The comma(,) after every variable)
-    //Change The Website Template
 
-    //   Header Details ---------------------
     name: "jay",
     headerTagline: [
         "Developer,",
-        //Line 1 For Header
+
         "Student,",
-        //Line 2 For Header
+
         "and Community",
-        //Line 3 For Header
 
     ],
-    //   Header Paragraph
-    //headerParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
 
-    //Contact Email
     contactEmail: "hello@imjp.dev",
 
-    // End Header Details -----------------------
 
-    // Work Section ------------------------
     projects: [{
             title: "odeo.in",
             para: "The Ultimate Platform For All Local Artist We are team of talanted artist making your event memorable.",
@@ -91,70 +84,83 @@ export default {
 
     ],
 
-    // End Work Section -----------------------
 
-    // About Secton --------------
     aboutParaOne: "Hello there👋, I am Jay Patel a pre - final year undergrad student at Sardar Vallabhbhai Patel Institute of Technology.I am a full - stack web developer.I am exploring various technologies in Web Development.And learning new technologies on a required basis.I have a simple motto.Pick a project definition and then explore the definition.After exploring decide which technologies will be used to make the way of user experience smooth.If I know the technology which will be used in developing.Else I learn required technologies and implement them directly on the project.And at the end of the completing project, I had lots of new skills / concepts which I never used or never had.Currently I am working as a Web Developer at my own projects and sometimes on freelance projects just for exploring and learning new things about client requirements.Also, I am Data Science, Machine Learning, Artificial Intelligence enthusiast.",
     aboutParaTwo: "",
     aboutParaThree: "",
     aboutImage: "https://imjp19.github.io/images/JAY-CIRCLE.png",
-    //   End About Section ---------------------
 
-    // Skills Section ---------------
-
-    //   Import Icons from the top and link it here
 
     skills: [{
             img: htmlIcon,
+            para: "HTML"
         },
         {
             img: cssIcon,
+            para: "CSS"
+
         },
         {
             img: jsIcon,
+            para: "JavaScript"
+
         },
         {
             img: sqliteIcon,
+            para: "MySQL"
+
         },
         {
             img: javaIcon,
+            para: "Java"
+
         },
         {
             img: pythonIcon,
+            para: "Python"
+
         },
         {
             img: mongodbIcon,
+            para: "MongoDB"
+
         },
         {
             img: reactIcon,
+            para: "ReactJS"
+
         },
         {
             img: expressIcon,
+            para: "ExpressJS"
+
         },
         {
             img: nodeIcon,
+            para: "NodeJS"
+
         },
         {
             img: gitIcon,
+            para: "Git"
+
         },
         {
-            img: githubBlackIcon
+            img: githubBlackIcon,
+            para: "GitHub"
+
         },
     ],
 
-    // End Skills Section --------------------------
 
-    //   Promotion Section --------------------------
 
     promotionHeading: "Heading",
     promotionPara: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    // End Promotion Section -----------------
 
-    //   Contact Section --------------
 
     contactSubHeading: "Let's create your next experience together",
     social: [
-        // Add Or Remove The Link Accordingly
+
         {
             img: githubIcon,
             url: "https://github.com/imjp19"
@@ -172,10 +178,15 @@ export default {
             img: instagramIcon,
             url: "https://www.instagram.com/imjp.dev",
         },
+        {
+            img: youtubeIcon,
+            url: "https://www.youtube.com/JayPatel19",
+        },
+        // {
+        //     img: discordIcon,
+        //     url: "https://discord.com/invite/dDA5Fmycjw"
+        // }
 
     ],
 
-    // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
