@@ -38,10 +38,15 @@
         }
         .email-link {
             color: white;
+            opacity: 0.5;
             text-decoration: none;
             -webkit-text-stroke-width: 1px;
             font-size: 5rem;
             transition: all .2s ease-in-out;
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
             @include media(">=phone", "<lgphone") {
                 font-size: 1.2rem;
                 letter-spacing: 1.5rem;
@@ -56,11 +61,7 @@
                 font-size: 5rem;
                 letter-spacing: 2px;
                 font-weight: 900;
-            }
-            &:hover {
-                color: black;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: white;
+                opacity: 0.6;
             }
         }
         .social-icons {
